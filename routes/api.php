@@ -12,7 +12,7 @@
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::get('/voucher/cek/{vvid}', 'Api\voucherController@getUuid');
+Route::get('/voucher/cek/{uuid}', 'Api\voucherController@getUuid');
 
 // Route::middleware('auth:api')->get('/user', function (Request $request) {
 //     return $request->user();
